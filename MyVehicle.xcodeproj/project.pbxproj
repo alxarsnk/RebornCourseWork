@@ -1,0 +1,1512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4DBAE0223660C1005ADDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBADF223660C1005ADDF9 /* AppDelegate.swift */; };
+		1B4DBAE2223660C1005ADDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBAE1223660C1005ADDF9 /* ViewController.swift */; };
+		1B4DBAE5223660C1005ADDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4DBAE3223660C1005ADDF9 /* Main.storyboard */; };
+		1B4DBAE8223660C1005ADDF9 /* MyVehicle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBAE6223660C1005ADDF9 /* MyVehicle.xcdatamodeld */; };
+		1B4DBAEA223660C3005ADDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4DBAE9223660C3005ADDF9 /* Assets.xcassets */; };
+		1B4DBAED223660C3005ADDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4DBAEB223660C3005ADDF9 /* LaunchScreen.storyboard */; };
+		1B4DBAF8223660C3005ADDF9 /* MyVehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBAF7223660C3005ADDF9 /* MyVehicleTests.swift */; };
+		1B4DBB03223660C3005ADDF9 /* MyVehicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBB02223660C3005ADDF9 /* MyVehicleUITests.swift */; };
+		1BF1FC1A2240060600D97BF0 /* ProfileMenuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC192240060600D97BF0 /* ProfileMenuConfigurator.swift */; };
+		1BF1FC202240069500D97BF0 /* ProfileMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC1F2240069500D97BF0 /* ProfileMenuViewController.swift */; };
+		1BF1FC22224007C200D97BF0 /* ProfileMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC21224007C200D97BF0 /* ProfileMenuRouter.swift */; };
+		1BF1FC24224007D100D97BF0 /* ProfileMenuInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC23224007D100D97BF0 /* ProfileMenuInput.swift */; };
+		1BF1FC272240081500D97BF0 /* ProfileMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC262240081500D97BF0 /* ProfileMenuPresenter.swift */; };
+		1BF1FC292240082400D97BF0 /* ProfileMenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC282240082400D97BF0 /* ProfileMenuInteractor.swift */; };
+		1BF1FC2B2240083700D97BF0 /* ProfileMenuInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC2A2240083700D97BF0 /* ProfileMenuInteractorInput.swift */; };
+		1BF1FC2D2240084600D97BF0 /* ProfileMenuInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC2C2240084600D97BF0 /* ProfileMenuInteractorOutput.swift */; };
+		1BF1FC2F2240085200D97BF0 /* ProfileMenuViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC2E2240085200D97BF0 /* ProfileMenuViewInput.swift */; };
+		1BF1FC312240086100D97BF0 /* ProfileMenuViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC302240086100D97BF0 /* ProfileMenuViewOutput.swift */; };
+		1BF1FC352240099600D97BF0 /* RegisterVehicleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC342240099600D97BF0 /* RegisterVehicleConfigurator.swift */; };
+		1BF1FC3B224009F100D97BF0 /* RegisterVehicleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC3A224009F100D97BF0 /* RegisterVehicleInteractor.swift */; };
+		1BF1FC3D22400A0000D97BF0 /* RegisterVehicleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC3C22400A0000D97BF0 /* RegisterVehicleInteractorInput.swift */; };
+		1BF1FC3F22400A0900D97BF0 /* RegisterVehiclePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC3E22400A0900D97BF0 /* RegisterVehiclePresenter.swift */; };
+		1BF1FC4122400A2400D97BF0 /* RegisterVehicleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4022400A2400D97BF0 /* RegisterVehicleInteractorOutput.swift */; };
+		1BF1FC4322400A2E00D97BF0 /* RegisterVehicleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4222400A2E00D97BF0 /* RegisterVehicleRouter.swift */; };
+		1BF1FC4522400A3E00D97BF0 /* RegisterVehicleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4422400A3E00D97BF0 /* RegisterVehicleRouterInput.swift */; };
+		1BF1FC4722400A4900D97BF0 /* RegisterVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4622400A4900D97BF0 /* RegisterVehicleViewController.swift */; };
+		1BF1FC4922400A5800D97BF0 /* RegisterVehicleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4822400A5800D97BF0 /* RegisterVehicleViewInput.swift */; };
+		1BF1FC4B22400A6300D97BF0 /* RegisterVehicleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4A22400A6300D97BF0 /* RegisterVehicleViewOutput.swift */; };
+		1BF1FC4E22400B9B00D97BF0 /* ConfirmCarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC4D22400B9B00D97BF0 /* ConfirmCarConfigurator.swift */; };
+		1BF1FC5422400BCA00D97BF0 /* ConfirmCarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5322400BCA00D97BF0 /* ConfirmCarPresenter.swift */; };
+		1BF1FC5622400BD400D97BF0 /* ConfirmCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5522400BD400D97BF0 /* ConfirmCarViewController.swift */; };
+		1BF1FC5822400BE400D97BF0 /* ConfirmCarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5722400BE400D97BF0 /* ConfirmCarViewInput.swift */; };
+		1BF1FC5A22400BEF00D97BF0 /* ConfirmCarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5922400BEF00D97BF0 /* ConfirmCarViewOutput.swift */; };
+		1BF1FC5C22400C0900D97BF0 /* ConfirmCarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5B22400C0900D97BF0 /* ConfirmCarInteractor.swift */; };
+		1BF1FC5E22400C1300D97BF0 /* ConfirmCarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5D22400C1300D97BF0 /* ConfirmCarInteractorInput.swift */; };
+		1BF1FC6022400C3200D97BF0 /* ConfirmCarInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC5F22400C3200D97BF0 /* ConfirmCarInteractorOutput.swift */; };
+		1BF1FC6222400C3D00D97BF0 /* ConfirmCarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC6122400C3D00D97BF0 /* ConfirmCarRouter.swift */; };
+		1BF1FC6422400C4900D97BF0 /* ConfirmCarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC6322400C4900D97BF0 /* ConfirmCarRouterInput.swift */; };
+		1BF1FC6B22400DB400D97BF0 /* MyVehiclesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC6A22400DB400D97BF0 /* MyVehiclesConfigurator.swift */; };
+		1BF1FC6D22400DC200D97BF0 /* MyVehiclesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC6C22400DC200D97BF0 /* MyVehiclesViewInput.swift */; };
+		1BF1FC6F22400DCD00D97BF0 /* MyVehiclesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC6E22400DCD00D97BF0 /* MyVehiclesViewOutput.swift */; };
+		1BF1FC7122400DD700D97BF0 /* MyVehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7022400DD700D97BF0 /* MyVehiclesViewController.swift */; };
+		1BF1FC7322400DE300D97BF0 /* MyVehiclesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7222400DE300D97BF0 /* MyVehiclesPresenter.swift */; };
+		1BF1FC7522400DF300D97BF0 /* MyVehiclesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7422400DF300D97BF0 /* MyVehiclesInteractor.swift */; };
+		1BF1FC7722400E0300D97BF0 /* MyVehiclesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7622400E0300D97BF0 /* MyVehiclesInteractorInput.swift */; };
+		1BF1FC7922400E0C00D97BF0 /* MyVehiclesOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7822400E0C00D97BF0 /* MyVehiclesOutput.swift */; };
+		1BF1FC7B22400E1700D97BF0 /* MyVehiclesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7A22400E1700D97BF0 /* MyVehiclesRouter.swift */; };
+		1BF1FC7D22400E2700D97BF0 /* MyVehiclesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC7C22400E2700D97BF0 /* MyVehiclesRouterInput.swift */; };
+		1BF1FC8422400EE100D97BF0 /* CarDetailConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8322400EE100D97BF0 /* CarDetailConfigurator.swift */; };
+		1BF1FC8622400F8900D97BF0 /* CarDetailViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8522400F8900D97BF0 /* CarDetailViewInput.swift */; };
+		1BF1FC8822400F9200D97BF0 /* CarDetailViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8722400F9200D97BF0 /* CarDetailViewOutput.swift */; };
+		1BF1FC8A22400F9D00D97BF0 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8922400F9D00D97BF0 /* CarDetailViewController.swift */; };
+		1BF1FC8C22400FA600D97BF0 /* CarDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8B22400FA600D97BF0 /* CarDetailPresenter.swift */; };
+		1BF1FC8E22400FB800D97BF0 /* CarDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8D22400FB800D97BF0 /* CarDetailInteractor.swift */; };
+		1BF1FC9022400FC900D97BF0 /* CarDetailInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC8F22400FC900D97BF0 /* CarDetailInteractorInput.swift */; };
+		1BF1FC9222400FD400D97BF0 /* CarDetailInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC9122400FD400D97BF0 /* CarDetailInteractorOutput.swift */; };
+		1BF1FC9422400FDE00D97BF0 /* CarDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC9322400FDE00D97BF0 /* CarDetailRouter.swift */; };
+		1BF1FC9622400FE900D97BF0 /* CarDetailRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FC9522400FE900D97BF0 /* CarDetailRouterInput.swift */; };
+		1BF1FCA222401A7D00D97BF0 /* OperationsMenuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCA122401A7D00D97BF0 /* OperationsMenuConfigurator.swift */; };
+		1BF1FCA422401A8A00D97BF0 /* OperationsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCA322401A8A00D97BF0 /* OperationsMenuViewController.swift */; };
+		1BF1FCA622401A9500D97BF0 /* OperationsMenuViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCA522401A9500D97BF0 /* OperationsMenuViewInput.swift */; };
+		1BF1FCA822401AA300D97BF0 /* OperationsMenuViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCA722401AA300D97BF0 /* OperationsMenuViewOutput.swift */; };
+		1BF1FCAA22401AAC00D97BF0 /* OperationsMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCA922401AAC00D97BF0 /* OperationsMenuPresenter.swift */; };
+		1BF1FCAC22401AB900D97BF0 /* OperationsMenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCAB22401AB900D97BF0 /* OperationsMenuInteractor.swift */; };
+		1BF1FCAE22401AC900D97BF0 /* OperationsMenuInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCAD22401AC900D97BF0 /* OperationsMenuInteractorInput.swift */; };
+		1BF1FCB022401AD400D97BF0 /* OperationsMenuInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCAF22401AD400D97BF0 /* OperationsMenuInteractorOutput.swift */; };
+		1BF1FCB222401ADE00D97BF0 /* OperationsMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCB122401ADE00D97BF0 /* OperationsMenuRouter.swift */; };
+		1BF1FCB422401AE900D97BF0 /* OperationsMenuRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCB322401AE900D97BF0 /* OperationsMenuRouterInput.swift */; };
+		1BF1FCBA22401BB900D97BF0 /* FinishedOperationsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCB922401BB900D97BF0 /* FinishedOperationsConfigurator.swift */; };
+		1BF1FCBC22401BC300D97BF0 /* FinishedOperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCBB22401BC300D97BF0 /* FinishedOperationsViewController.swift */; };
+		1BF1FCBE22401BCF00D97BF0 /* FinishedOperationsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCBD22401BCF00D97BF0 /* FinishedOperationsViewInput.swift */; };
+		1BF1FCC022401BDB00D97BF0 /* FinishedOperationsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCBF22401BDB00D97BF0 /* FinishedOperationsViewOutput.swift */; };
+		1BF1FCC222401BE800D97BF0 /* FinishedOperationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCC122401BE800D97BF0 /* FinishedOperationsPresenter.swift */; };
+		1BF1FCC422401C0300D97BF0 /* FinishedOperationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCC322401C0300D97BF0 /* FinishedOperationsInteractor.swift */; };
+		1BF1FCC622401C1500D97BF0 /* FinishedOperationsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCC522401C1500D97BF0 /* FinishedOperationsInteractorOutput.swift */; };
+		1BF1FCC822401C2700D97BF0 /* FinishedOperationsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCC722401C2700D97BF0 /* FinishedOperationsInteractorInput.swift */; };
+		1BF1FCCA22401C3200D97BF0 /* FinishedOperationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCC922401C3200D97BF0 /* FinishedOperationsRouter.swift */; };
+		1BF1FCCC22401C3E00D97BF0 /* FinishedOperationsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCCB22401C3E00D97BF0 /* FinishedOperationsRouterInput.swift */; };
+		1BF1FCD222401CCD00D97BF0 /* ActiveOperationsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCD122401CCD00D97BF0 /* ActiveOperationsConfigurator.swift */; };
+		1BF1FCD422401CEB00D97BF0 /* ActiveOperationsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCD322401CEB00D97BF0 /* ActiveOperationsViewInput.swift */; };
+		1BF1FCD622401CF600D97BF0 /* ActiveOperationsOutputOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCD522401CF600D97BF0 /* ActiveOperationsOutputOperations.swift */; };
+		1BF1FCD822401D0500D97BF0 /* ActiveOperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCD722401D0500D97BF0 /* ActiveOperationsViewController.swift */; };
+		1BF1FCDA22401D1100D97BF0 /* ActiveOperationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCD922401D1100D97BF0 /* ActiveOperationsPresenter.swift */; };
+		1BF1FCDC22401D1C00D97BF0 /* ActiveOperationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCDB22401D1C00D97BF0 /* ActiveOperationsInteractor.swift */; };
+		1BF1FCDE22401D2900D97BF0 /* ActiveOperationsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCDD22401D2900D97BF0 /* ActiveOperationsInteractorInput.swift */; };
+		1BF1FCE022401D3800D97BF0 /* ActiveOperationsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCDF22401D3800D97BF0 /* ActiveOperationsInteractorOutput.swift */; };
+		1BF1FCE222401D4200D97BF0 /* ActiveOperationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCE122401D4200D97BF0 /* ActiveOperationsRouter.swift */; };
+		1BF1FCE422401D4E00D97BF0 /* ActiveOperationsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCE322401D4E00D97BF0 /* ActiveOperationsRouterInput.swift */; };
+		1BF1FCEA22401D9A00D97BF0 /* AddOperationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCE922401D9A00D97BF0 /* AddOperationConfigurator.swift */; };
+		1BF1FCEC22401DAE00D97BF0 /* AddOperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCEB22401DAE00D97BF0 /* AddOperationViewController.swift */; };
+		1BF1FCEE22401DB800D97BF0 /* AddOperationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCED22401DB800D97BF0 /* AddOperationViewInput.swift */; };
+		1BF1FCF022401DC500D97BF0 /* AddOperationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCEF22401DC500D97BF0 /* AddOperationViewOutput.swift */; };
+		1BF1FCF222401DCF00D97BF0 /* AddOperationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCF122401DCF00D97BF0 /* AddOperationPresenter.swift */; };
+		1BF1FCF422401DE000D97BF0 /* AddOperationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCF322401DE000D97BF0 /* AddOperationInteractor.swift */; };
+		1BF1FCF622401DEE00D97BF0 /* AddOperationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCF522401DEE00D97BF0 /* AddOperationInteractorInput.swift */; };
+		1BF1FCF822401DFA00D97BF0 /* AddOperationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCF722401DFA00D97BF0 /* AddOperationInteractorOutput.swift */; };
+		1BF1FCFA22401E0200D97BF0 /* AddOperationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCF922401E0200D97BF0 /* AddOperationRouter.swift */; };
+		1BF1FCFC22401E1E00D97BF0 /* AddOperationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FCFB22401E1E00D97BF0 /* AddOperationRouterInput.swift */; };
+		1BF1FD052240206F00D97BF0 /* CarsForAnalyticsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD042240206F00D97BF0 /* CarsForAnalyticsConfigurator.swift */; };
+		1BF1FD072240207C00D97BF0 /* CarsForAnalyticsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD062240207C00D97BF0 /* CarsForAnalyticsViewInput.swift */; };
+		1BF1FD092240208500D97BF0 /* CarsForAnalyticsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD082240208500D97BF0 /* CarsForAnalyticsViewOutput.swift */; };
+		1BF1FD0B2240209500D97BF0 /* CarsForAnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD0A2240209500D97BF0 /* CarsForAnalyticsViewController.swift */; };
+		1BF1FD0D224020A200D97BF0 /* CarsForAnalyticsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD0C224020A200D97BF0 /* CarsForAnalyticsPresenter.swift */; };
+		1BF1FD0F224020AE00D97BF0 /* CarsForAnalyticsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD0E224020AE00D97BF0 /* CarsForAnalyticsInteractor.swift */; };
+		1BF1FD11224020B800D97BF0 /* CarsForAnalyticsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD10224020B800D97BF0 /* CarsForAnalyticsInteractorInput.swift */; };
+		1BF1FD13224020C500D97BF0 /* CarsForAnalyticsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD12224020C500D97BF0 /* CarsForAnalyticsInteractorOutput.swift */; };
+		1BF1FD17224020DA00D97BF0 /* CarsForAnalyticsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD16224020DA00D97BF0 /* CarsForAnalyticsRouter.swift */; };
+		1BF1FD19224020E400D97BF0 /* CarsForAnalyticsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD18224020E400D97BF0 /* CarsForAnalyticsRouterInput.swift */; };
+		1BF1FD1F2240211400D97BF0 /* DetailCarAnalyticsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD1E2240211400D97BF0 /* DetailCarAnalyticsConfigurator.swift */; };
+		1BF1FD212240211F00D97BF0 /* DetailCarAnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD202240211F00D97BF0 /* DetailCarAnalyticsViewController.swift */; };
+		1BF1FD232240214800D97BF0 /* DetailCarAnalyticsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD222240214800D97BF0 /* DetailCarAnalyticsViewInput.swift */; };
+		1BF1FD252240215200D97BF0 /* DetailCarAnalyticsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD242240215200D97BF0 /* DetailCarAnalyticsViewOutput.swift */; };
+		1BF1FD272240215F00D97BF0 /* DetailCarAnalyticsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD262240215F00D97BF0 /* DetailCarAnalyticsPresenter.swift */; };
+		1BF1FD292240216700D97BF0 /* DetailCarAnalyticsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD282240216700D97BF0 /* DetailCarAnalyticsInteractor.swift */; };
+		1BF1FD2B2240217A00D97BF0 /* DetailCarAnalyticsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD2A2240217A00D97BF0 /* DetailCarAnalyticsInteractorInput.swift */; };
+		1BF1FD2D2240218800D97BF0 /* DetailCarAnalyticsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD2C2240218800D97BF0 /* DetailCarAnalyticsInteractorOutput.swift */; };
+		1BF1FD2F2240219100D97BF0 /* DetailCarAnalyticsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD2E2240219100D97BF0 /* DetailCarAnalyticsRouter.swift */; };
+		1BF1FD312240219B00D97BF0 /* DetailCarAnalyticsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1FD302240219B00D97BF0 /* DetailCarAnalyticsRouterInput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4DBAF4223660C3005ADDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4DBAD4223660C0005ADDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4DBADB223660C1005ADDF9;
+			remoteInfo = MyVehicle;
+		};
+		1B4DBAFF223660C3005ADDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4DBAD4223660C0005ADDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4DBADB223660C1005ADDF9;
+			remoteInfo = MyVehicle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B4DBADC223660C1005ADDF9 /* MyVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4DBADF223660C1005ADDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B4DBAE1223660C1005ADDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B4DBAE4223660C1005ADDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B4DBAE7223660C1005ADDF9 /* MyVehicle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVehicle.xcdatamodel; sourceTree = "<group>"; };
+		1B4DBAE9223660C3005ADDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B4DBAEC223660C3005ADDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B4DBAEE223660C3005ADDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4DBAF3223660C3005ADDF9 /* MyVehicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVehicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4DBAF7223660C3005ADDF9 /* MyVehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehicleTests.swift; sourceTree = "<group>"; };
+		1B4DBAF9223660C3005ADDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4DBAFE223660C3005ADDF9 /* MyVehicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVehicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4DBB02223660C3005ADDF9 /* MyVehicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehicleUITests.swift; sourceTree = "<group>"; };
+		1B4DBB04223660C3005ADDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF1FC192240060600D97BF0 /* ProfileMenuConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FC1F2240069500D97BF0 /* ProfileMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuViewController.swift; sourceTree = "<group>"; };
+		1BF1FC21224007C200D97BF0 /* ProfileMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuRouter.swift; sourceTree = "<group>"; };
+		1BF1FC23224007D100D97BF0 /* ProfileMenuInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuInput.swift; sourceTree = "<group>"; };
+		1BF1FC262240081500D97BF0 /* ProfileMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuPresenter.swift; sourceTree = "<group>"; };
+		1BF1FC282240082400D97BF0 /* ProfileMenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuInteractor.swift; sourceTree = "<group>"; };
+		1BF1FC2A2240083700D97BF0 /* ProfileMenuInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FC2C2240084600D97BF0 /* ProfileMenuInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FC2E2240085200D97BF0 /* ProfileMenuViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuViewInput.swift; sourceTree = "<group>"; };
+		1BF1FC302240086100D97BF0 /* ProfileMenuViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FC342240099600D97BF0 /* RegisterVehicleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FC3A224009F100D97BF0 /* RegisterVehicleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleInteractor.swift; sourceTree = "<group>"; };
+		1BF1FC3C22400A0000D97BF0 /* RegisterVehicleInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FC3E22400A0900D97BF0 /* RegisterVehiclePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehiclePresenter.swift; sourceTree = "<group>"; };
+		1BF1FC4022400A2400D97BF0 /* RegisterVehicleInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FC4222400A2E00D97BF0 /* RegisterVehicleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleRouter.swift; sourceTree = "<group>"; };
+		1BF1FC4422400A3E00D97BF0 /* RegisterVehicleRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FC4622400A4900D97BF0 /* RegisterVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleViewController.swift; sourceTree = "<group>"; };
+		1BF1FC4822400A5800D97BF0 /* RegisterVehicleViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleViewInput.swift; sourceTree = "<group>"; };
+		1BF1FC4A22400A6300D97BF0 /* RegisterVehicleViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FC4D22400B9B00D97BF0 /* ConfirmCarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FC5322400BCA00D97BF0 /* ConfirmCarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarPresenter.swift; sourceTree = "<group>"; };
+		1BF1FC5522400BD400D97BF0 /* ConfirmCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarViewController.swift; sourceTree = "<group>"; };
+		1BF1FC5722400BE400D97BF0 /* ConfirmCarViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarViewInput.swift; sourceTree = "<group>"; };
+		1BF1FC5922400BEF00D97BF0 /* ConfirmCarViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FC5B22400C0900D97BF0 /* ConfirmCarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarInteractor.swift; sourceTree = "<group>"; };
+		1BF1FC5D22400C1300D97BF0 /* ConfirmCarInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FC5F22400C3200D97BF0 /* ConfirmCarInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FC6122400C3D00D97BF0 /* ConfirmCarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarRouter.swift; sourceTree = "<group>"; };
+		1BF1FC6322400C4900D97BF0 /* ConfirmCarRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCarRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FC6A22400DB400D97BF0 /* MyVehiclesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FC6C22400DC200D97BF0 /* MyVehiclesViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesViewInput.swift; sourceTree = "<group>"; };
+		1BF1FC6E22400DCD00D97BF0 /* MyVehiclesViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FC7022400DD700D97BF0 /* MyVehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesViewController.swift; sourceTree = "<group>"; };
+		1BF1FC7222400DE300D97BF0 /* MyVehiclesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesPresenter.swift; sourceTree = "<group>"; };
+		1BF1FC7422400DF300D97BF0 /* MyVehiclesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesInteractor.swift; sourceTree = "<group>"; };
+		1BF1FC7622400E0300D97BF0 /* MyVehiclesInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FC7822400E0C00D97BF0 /* MyVehiclesOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesOutput.swift; sourceTree = "<group>"; };
+		1BF1FC7A22400E1700D97BF0 /* MyVehiclesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesRouter.swift; sourceTree = "<group>"; };
+		1BF1FC7C22400E2700D97BF0 /* MyVehiclesRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FC8322400EE100D97BF0 /* CarDetailConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FC8522400F8900D97BF0 /* CarDetailViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewInput.swift; sourceTree = "<group>"; };
+		1BF1FC8722400F9200D97BF0 /* CarDetailViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FC8922400F9D00D97BF0 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		1BF1FC8B22400FA600D97BF0 /* CarDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailPresenter.swift; sourceTree = "<group>"; };
+		1BF1FC8D22400FB800D97BF0 /* CarDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailInteractor.swift; sourceTree = "<group>"; };
+		1BF1FC8F22400FC900D97BF0 /* CarDetailInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FC9122400FD400D97BF0 /* CarDetailInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FC9322400FDE00D97BF0 /* CarDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailRouter.swift; sourceTree = "<group>"; };
+		1BF1FC9522400FE900D97BF0 /* CarDetailRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FCA122401A7D00D97BF0 /* OperationsMenuConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FCA322401A8A00D97BF0 /* OperationsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuViewController.swift; sourceTree = "<group>"; };
+		1BF1FCA522401A9500D97BF0 /* OperationsMenuViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuViewInput.swift; sourceTree = "<group>"; };
+		1BF1FCA722401AA300D97BF0 /* OperationsMenuViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FCA922401AAC00D97BF0 /* OperationsMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuPresenter.swift; sourceTree = "<group>"; };
+		1BF1FCAB22401AB900D97BF0 /* OperationsMenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuInteractor.swift; sourceTree = "<group>"; };
+		1BF1FCAD22401AC900D97BF0 /* OperationsMenuInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FCAF22401AD400D97BF0 /* OperationsMenuInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FCB122401ADE00D97BF0 /* OperationsMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuRouter.swift; sourceTree = "<group>"; };
+		1BF1FCB322401AE900D97BF0 /* OperationsMenuRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FCB922401BB900D97BF0 /* FinishedOperationsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FCBB22401BC300D97BF0 /* FinishedOperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsViewController.swift; sourceTree = "<group>"; };
+		1BF1FCBD22401BCF00D97BF0 /* FinishedOperationsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsViewInput.swift; sourceTree = "<group>"; };
+		1BF1FCBF22401BDB00D97BF0 /* FinishedOperationsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FCC122401BE800D97BF0 /* FinishedOperationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsPresenter.swift; sourceTree = "<group>"; };
+		1BF1FCC322401C0300D97BF0 /* FinishedOperationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsInteractor.swift; sourceTree = "<group>"; };
+		1BF1FCC522401C1500D97BF0 /* FinishedOperationsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FCC722401C2700D97BF0 /* FinishedOperationsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FCC922401C3200D97BF0 /* FinishedOperationsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsRouter.swift; sourceTree = "<group>"; };
+		1BF1FCCB22401C3E00D97BF0 /* FinishedOperationsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedOperationsRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FCD122401CCD00D97BF0 /* ActiveOperationsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FCD322401CEB00D97BF0 /* ActiveOperationsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsViewInput.swift; sourceTree = "<group>"; };
+		1BF1FCD522401CF600D97BF0 /* ActiveOperationsOutputOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsOutputOperations.swift; sourceTree = "<group>"; };
+		1BF1FCD722401D0500D97BF0 /* ActiveOperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsViewController.swift; sourceTree = "<group>"; };
+		1BF1FCD922401D1100D97BF0 /* ActiveOperationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsPresenter.swift; sourceTree = "<group>"; };
+		1BF1FCDB22401D1C00D97BF0 /* ActiveOperationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsInteractor.swift; sourceTree = "<group>"; };
+		1BF1FCDD22401D2900D97BF0 /* ActiveOperationsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FCDF22401D3800D97BF0 /* ActiveOperationsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FCE122401D4200D97BF0 /* ActiveOperationsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsRouter.swift; sourceTree = "<group>"; };
+		1BF1FCE322401D4E00D97BF0 /* ActiveOperationsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOperationsRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FCE922401D9A00D97BF0 /* AddOperationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FCEB22401DAE00D97BF0 /* AddOperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationViewController.swift; sourceTree = "<group>"; };
+		1BF1FCED22401DB800D97BF0 /* AddOperationViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationViewInput.swift; sourceTree = "<group>"; };
+		1BF1FCEF22401DC500D97BF0 /* AddOperationViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FCF122401DCF00D97BF0 /* AddOperationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationPresenter.swift; sourceTree = "<group>"; };
+		1BF1FCF322401DE000D97BF0 /* AddOperationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationInteractor.swift; sourceTree = "<group>"; };
+		1BF1FCF522401DEE00D97BF0 /* AddOperationInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FCF722401DFA00D97BF0 /* AddOperationInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FCF922401E0200D97BF0 /* AddOperationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationRouter.swift; sourceTree = "<group>"; };
+		1BF1FCFB22401E1E00D97BF0 /* AddOperationRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperationRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FD042240206F00D97BF0 /* CarsForAnalyticsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FD062240207C00D97BF0 /* CarsForAnalyticsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsViewInput.swift; sourceTree = "<group>"; };
+		1BF1FD082240208500D97BF0 /* CarsForAnalyticsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FD0A2240209500D97BF0 /* CarsForAnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsViewController.swift; sourceTree = "<group>"; };
+		1BF1FD0C224020A200D97BF0 /* CarsForAnalyticsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsPresenter.swift; sourceTree = "<group>"; };
+		1BF1FD0E224020AE00D97BF0 /* CarsForAnalyticsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsInteractor.swift; sourceTree = "<group>"; };
+		1BF1FD10224020B800D97BF0 /* CarsForAnalyticsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FD12224020C500D97BF0 /* CarsForAnalyticsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FD16224020DA00D97BF0 /* CarsForAnalyticsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsRouter.swift; sourceTree = "<group>"; };
+		1BF1FD18224020E400D97BF0 /* CarsForAnalyticsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsRouterInput.swift; sourceTree = "<group>"; };
+		1BF1FD1E2240211400D97BF0 /* DetailCarAnalyticsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsConfigurator.swift; sourceTree = "<group>"; };
+		1BF1FD202240211F00D97BF0 /* DetailCarAnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsViewController.swift; sourceTree = "<group>"; };
+		1BF1FD222240214800D97BF0 /* DetailCarAnalyticsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsViewInput.swift; sourceTree = "<group>"; };
+		1BF1FD242240215200D97BF0 /* DetailCarAnalyticsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsViewOutput.swift; sourceTree = "<group>"; };
+		1BF1FD262240215F00D97BF0 /* DetailCarAnalyticsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsPresenter.swift; sourceTree = "<group>"; };
+		1BF1FD282240216700D97BF0 /* DetailCarAnalyticsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsInteractor.swift; sourceTree = "<group>"; };
+		1BF1FD2A2240217A00D97BF0 /* DetailCarAnalyticsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsInteractorInput.swift; sourceTree = "<group>"; };
+		1BF1FD2C2240218800D97BF0 /* DetailCarAnalyticsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsInteractorOutput.swift; sourceTree = "<group>"; };
+		1BF1FD2E2240219100D97BF0 /* DetailCarAnalyticsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsRouter.swift; sourceTree = "<group>"; };
+		1BF1FD302240219B00D97BF0 /* DetailCarAnalyticsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarAnalyticsRouterInput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4DBAD9223660C1005ADDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4DBAF0223660C3005ADDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4DBAFB223660C3005ADDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4DBAD3223660C0005ADDF9 = {
+			isa = PBXGroup;
+			children = (
+				1B4DBADE223660C1005ADDF9 /* MyVehicle */,
+				1B4DBAF6223660C3005ADDF9 /* MyVehicleTests */,
+				1B4DBB01223660C3005ADDF9 /* MyVehicleUITests */,
+				1B4DBADD223660C1005ADDF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B4DBADD223660C1005ADDF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B4DBADC223660C1005ADDF9 /* MyVehicle.app */,
+				1B4DBAF3223660C3005ADDF9 /* MyVehicleTests.xctest */,
+				1B4DBAFE223660C3005ADDF9 /* MyVehicleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B4DBADE223660C1005ADDF9 /* MyVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				1B4DBADF223660C1005ADDF9 /* AppDelegate.swift */,
+				1B4DBAE1223660C1005ADDF9 /* ViewController.swift */,
+				1B4DBAE3223660C1005ADDF9 /* Main.storyboard */,
+				1BF1FCFD22401E7B00D97BF0 /* Analytics */,
+				1BF1FC98224019F100D97BF0 /* Operations */,
+				1BF1FC32224008EF00D97BF0 /* Profile */,
+				1B4DBAE9223660C3005ADDF9 /* Assets.xcassets */,
+				1B4DBAEB223660C3005ADDF9 /* LaunchScreen.storyboard */,
+				1B4DBAEE223660C3005ADDF9 /* Info.plist */,
+				1B4DBAE6223660C1005ADDF9 /* MyVehicle.xcdatamodeld */,
+			);
+			path = MyVehicle;
+			sourceTree = "<group>";
+		};
+		1B4DBAF6223660C3005ADDF9 /* MyVehicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4DBAF7223660C3005ADDF9 /* MyVehicleTests.swift */,
+				1B4DBAF9223660C3005ADDF9 /* Info.plist */,
+			);
+			path = MyVehicleTests;
+			sourceTree = "<group>";
+		};
+		1B4DBB01223660C3005ADDF9 /* MyVehicleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4DBB02223660C3005ADDF9 /* MyVehicleUITests.swift */,
+				1B4DBB04223660C3005ADDF9 /* Info.plist */,
+			);
+			path = MyVehicleUITests;
+			sourceTree = "<group>";
+		};
+		1BF1FC18224005D000D97BF0 /* ProfileMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC192240060600D97BF0 /* ProfileMenuConfigurator.swift */,
+				1BF1FC1E2240066500D97BF0 /* View */,
+				1BF1FC25224007FC00D97BF0 /* Presenter */,
+				1BF1FC1C2240065100D97BF0 /* Interactor */,
+				1BF1FC1B2240060C00D97BF0 /* Router */,
+			);
+			path = ProfileMenu;
+			sourceTree = "<group>";
+		};
+		1BF1FC1B2240060C00D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC21224007C200D97BF0 /* ProfileMenuRouter.swift */,
+				1BF1FC23224007D100D97BF0 /* ProfileMenuInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FC1C2240065100D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC282240082400D97BF0 /* ProfileMenuInteractor.swift */,
+				1BF1FC2A2240083700D97BF0 /* ProfileMenuInteractorInput.swift */,
+				1BF1FC2C2240084600D97BF0 /* ProfileMenuInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FC1E2240066500D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC1F2240069500D97BF0 /* ProfileMenuViewController.swift */,
+				1BF1FC2E2240085200D97BF0 /* ProfileMenuViewInput.swift */,
+				1BF1FC302240086100D97BF0 /* ProfileMenuViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FC25224007FC00D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC262240081500D97BF0 /* ProfileMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FC32224008EF00D97BF0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC7E22400EA200D97BF0 /* CarDetail */,
+				1BF1FC6522400D2400D97BF0 /* MyVehicles */,
+				1BF1FC4C22400B5700D97BF0 /* ConfirmCar */,
+				1BF1FC332240097800D97BF0 /* RegisterVehicle */,
+				1BF1FC18224005D000D97BF0 /* ProfileMenu */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1BF1FC332240097800D97BF0 /* RegisterVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC39224009BD00D97BF0 /* Interactor */,
+				1BF1FC38224009B300D97BF0 /* Presenter */,
+				1BF1FC37224009A900D97BF0 /* Router */,
+				1BF1FC362240099C00D97BF0 /* View */,
+				1BF1FC342240099600D97BF0 /* RegisterVehicleConfigurator.swift */,
+			);
+			path = RegisterVehicle;
+			sourceTree = "<group>";
+		};
+		1BF1FC362240099C00D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC4622400A4900D97BF0 /* RegisterVehicleViewController.swift */,
+				1BF1FC4822400A5800D97BF0 /* RegisterVehicleViewInput.swift */,
+				1BF1FC4A22400A6300D97BF0 /* RegisterVehicleViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FC37224009A900D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC4222400A2E00D97BF0 /* RegisterVehicleRouter.swift */,
+				1BF1FC4422400A3E00D97BF0 /* RegisterVehicleRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FC38224009B300D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC3E22400A0900D97BF0 /* RegisterVehiclePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FC39224009BD00D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC3A224009F100D97BF0 /* RegisterVehicleInteractor.swift */,
+				1BF1FC3C22400A0000D97BF0 /* RegisterVehicleInteractorInput.swift */,
+				1BF1FC4022400A2400D97BF0 /* RegisterVehicleInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FC4C22400B5700D97BF0 /* ConfirmCar */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC5222400BB400D97BF0 /* Router */,
+				1BF1FC5122400BAB00D97BF0 /* Interactor */,
+				1BF1FC5022400BA600D97BF0 /* View */,
+				1BF1FC4F22400B9E00D97BF0 /* Presenter */,
+				1BF1FC4D22400B9B00D97BF0 /* ConfirmCarConfigurator.swift */,
+			);
+			path = ConfirmCar;
+			sourceTree = "<group>";
+		};
+		1BF1FC4F22400B9E00D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC5322400BCA00D97BF0 /* ConfirmCarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FC5022400BA600D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC5522400BD400D97BF0 /* ConfirmCarViewController.swift */,
+				1BF1FC5722400BE400D97BF0 /* ConfirmCarViewInput.swift */,
+				1BF1FC5922400BEF00D97BF0 /* ConfirmCarViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FC5122400BAB00D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC5B22400C0900D97BF0 /* ConfirmCarInteractor.swift */,
+				1BF1FC5D22400C1300D97BF0 /* ConfirmCarInteractorInput.swift */,
+				1BF1FC5F22400C3200D97BF0 /* ConfirmCarInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FC5222400BB400D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC6122400C3D00D97BF0 /* ConfirmCarRouter.swift */,
+				1BF1FC6322400C4900D97BF0 /* ConfirmCarRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FC6522400D2400D97BF0 /* MyVehicles */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC6922400D8600D97BF0 /* Router */,
+				1BF1FC6822400D7D00D97BF0 /* Interactor */,
+				1BF1FC6722400D7200D97BF0 /* Presenter */,
+				1BF1FC6622400D6D00D97BF0 /* View */,
+				1BF1FC6A22400DB400D97BF0 /* MyVehiclesConfigurator.swift */,
+			);
+			path = MyVehicles;
+			sourceTree = "<group>";
+		};
+		1BF1FC6622400D6D00D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC6C22400DC200D97BF0 /* MyVehiclesViewInput.swift */,
+				1BF1FC6E22400DCD00D97BF0 /* MyVehiclesViewOutput.swift */,
+				1BF1FC7022400DD700D97BF0 /* MyVehiclesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FC6722400D7200D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC7222400DE300D97BF0 /* MyVehiclesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FC6822400D7D00D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC7422400DF300D97BF0 /* MyVehiclesInteractor.swift */,
+				1BF1FC7622400E0300D97BF0 /* MyVehiclesInteractorInput.swift */,
+				1BF1FC7822400E0C00D97BF0 /* MyVehiclesOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FC6922400D8600D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC7A22400E1700D97BF0 /* MyVehiclesRouter.swift */,
+				1BF1FC7C22400E2700D97BF0 /* MyVehiclesRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FC7E22400EA200D97BF0 /* CarDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC8222400EC300D97BF0 /* Router */,
+				1BF1FC8122400EBB00D97BF0 /* Interactor */,
+				1BF1FC8022400EB500D97BF0 /* Presenter */,
+				1BF1FC7F22400EB100D97BF0 /* View */,
+				1BF1FC8322400EE100D97BF0 /* CarDetailConfigurator.swift */,
+			);
+			path = CarDetail;
+			sourceTree = "<group>";
+		};
+		1BF1FC7F22400EB100D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC8522400F8900D97BF0 /* CarDetailViewInput.swift */,
+				1BF1FC8722400F9200D97BF0 /* CarDetailViewOutput.swift */,
+				1BF1FC8922400F9D00D97BF0 /* CarDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FC8022400EB500D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC8B22400FA600D97BF0 /* CarDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FC8122400EBB00D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC8D22400FB800D97BF0 /* CarDetailInteractor.swift */,
+				1BF1FC8F22400FC900D97BF0 /* CarDetailInteractorInput.swift */,
+				1BF1FC9122400FD400D97BF0 /* CarDetailInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FC8222400EC300D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC9322400FDE00D97BF0 /* CarDetailRouter.swift */,
+				1BF1FC9522400FE900D97BF0 /* CarDetailRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FC98224019F100D97BF0 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FC9C22401A3900D97BF0 /* OperationsMenu */,
+				1BF1FC9B22401A1100D97BF0 /* FinishedOperations */,
+				1BF1FC9A22401A0600D97BF0 /* ActiveOperations */,
+				1BF1FC99224019FA00D97BF0 /* AddOperation */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		1BF1FC99224019FA00D97BF0 /* AddOperation */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCE822401D8200D97BF0 /* Router */,
+				1BF1FCE722401D7900D97BF0 /* Interactor */,
+				1BF1FCE622401D6C00D97BF0 /* Presenter */,
+				1BF1FCE522401D6500D97BF0 /* View */,
+				1BF1FCE922401D9A00D97BF0 /* AddOperationConfigurator.swift */,
+			);
+			path = AddOperation;
+			sourceTree = "<group>";
+		};
+		1BF1FC9A22401A0600D97BF0 /* ActiveOperations */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCD022401CB400D97BF0 /* Router */,
+				1BF1FCCF22401CAC00D97BF0 /* Interactor */,
+				1BF1FCCE22401CA500D97BF0 /* Presenter */,
+				1BF1FCCD22401CA000D97BF0 /* View */,
+				1BF1FCD122401CCD00D97BF0 /* ActiveOperationsConfigurator.swift */,
+			);
+			path = ActiveOperations;
+			sourceTree = "<group>";
+		};
+		1BF1FC9B22401A1100D97BF0 /* FinishedOperations */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCB822401B9400D97BF0 /* Router */,
+				1BF1FCB722401B8D00D97BF0 /* Interactor */,
+				1BF1FCB622401B8500D97BF0 /* Presenter */,
+				1BF1FCB522401B7E00D97BF0 /* View */,
+				1BF1FCB922401BB900D97BF0 /* FinishedOperationsConfigurator.swift */,
+			);
+			path = FinishedOperations;
+			sourceTree = "<group>";
+		};
+		1BF1FC9C22401A3900D97BF0 /* OperationsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCA022401A5A00D97BF0 /* Router */,
+				1BF1FC9F22401A5400D97BF0 /* Interactor */,
+				1BF1FC9E22401A4E00D97BF0 /* Presenter */,
+				1BF1FC9D22401A4A00D97BF0 /* View */,
+				1BF1FCA122401A7D00D97BF0 /* OperationsMenuConfigurator.swift */,
+			);
+			path = OperationsMenu;
+			sourceTree = "<group>";
+		};
+		1BF1FC9D22401A4A00D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCA322401A8A00D97BF0 /* OperationsMenuViewController.swift */,
+				1BF1FCA522401A9500D97BF0 /* OperationsMenuViewInput.swift */,
+				1BF1FCA722401AA300D97BF0 /* OperationsMenuViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FC9E22401A4E00D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCA922401AAC00D97BF0 /* OperationsMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FC9F22401A5400D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCAB22401AB900D97BF0 /* OperationsMenuInteractor.swift */,
+				1BF1FCAD22401AC900D97BF0 /* OperationsMenuInteractorInput.swift */,
+				1BF1FCAF22401AD400D97BF0 /* OperationsMenuInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FCA022401A5A00D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCB122401ADE00D97BF0 /* OperationsMenuRouter.swift */,
+				1BF1FCB322401AE900D97BF0 /* OperationsMenuRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FCB522401B7E00D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCBB22401BC300D97BF0 /* FinishedOperationsViewController.swift */,
+				1BF1FCBD22401BCF00D97BF0 /* FinishedOperationsViewInput.swift */,
+				1BF1FCBF22401BDB00D97BF0 /* FinishedOperationsViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FCB622401B8500D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCC122401BE800D97BF0 /* FinishedOperationsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FCB722401B8D00D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCC322401C0300D97BF0 /* FinishedOperationsInteractor.swift */,
+				1BF1FCC522401C1500D97BF0 /* FinishedOperationsInteractorOutput.swift */,
+				1BF1FCC722401C2700D97BF0 /* FinishedOperationsInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FCB822401B9400D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCC922401C3200D97BF0 /* FinishedOperationsRouter.swift */,
+				1BF1FCCB22401C3E00D97BF0 /* FinishedOperationsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FCCD22401CA000D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCD322401CEB00D97BF0 /* ActiveOperationsViewInput.swift */,
+				1BF1FCD522401CF600D97BF0 /* ActiveOperationsOutputOperations.swift */,
+				1BF1FCD722401D0500D97BF0 /* ActiveOperationsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FCCE22401CA500D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCD922401D1100D97BF0 /* ActiveOperationsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FCCF22401CAC00D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCDB22401D1C00D97BF0 /* ActiveOperationsInteractor.swift */,
+				1BF1FCDD22401D2900D97BF0 /* ActiveOperationsInteractorInput.swift */,
+				1BF1FCDF22401D3800D97BF0 /* ActiveOperationsInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FCD022401CB400D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCE122401D4200D97BF0 /* ActiveOperationsRouter.swift */,
+				1BF1FCE322401D4E00D97BF0 /* ActiveOperationsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FCE522401D6500D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCEB22401DAE00D97BF0 /* AddOperationViewController.swift */,
+				1BF1FCED22401DB800D97BF0 /* AddOperationViewInput.swift */,
+				1BF1FCEF22401DC500D97BF0 /* AddOperationViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FCE622401D6C00D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCF122401DCF00D97BF0 /* AddOperationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FCE722401D7900D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCF322401DE000D97BF0 /* AddOperationInteractor.swift */,
+				1BF1FCF522401DEE00D97BF0 /* AddOperationInteractorInput.swift */,
+				1BF1FCF722401DFA00D97BF0 /* AddOperationInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FCE822401D8200D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCF922401E0200D97BF0 /* AddOperationRouter.swift */,
+				1BF1FCFB22401E1E00D97BF0 /* AddOperationRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FCFD22401E7B00D97BF0 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FCFF2240200700D97BF0 /* DetailCarAnalytics */,
+				1BF1FCFE22401FE500D97BF0 /* CarsForAnalytics */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		1BF1FCFE22401FE500D97BF0 /* CarsForAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD032240204300D97BF0 /* Router */,
+				1BF1FD022240203600D97BF0 /* Interactor */,
+				1BF1FD012240202F00D97BF0 /* Presenter */,
+				1BF1FD002240201900D97BF0 /* View */,
+				1BF1FD042240206F00D97BF0 /* CarsForAnalyticsConfigurator.swift */,
+			);
+			path = CarsForAnalytics;
+			sourceTree = "<group>";
+		};
+		1BF1FCFF2240200700D97BF0 /* DetailCarAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD1D224020FD00D97BF0 /* Router */,
+				1BF1FD1C224020F500D97BF0 /* Interactor */,
+				1BF1FD1B224020EF00D97BF0 /* Presenter */,
+				1BF1FD1A224020EA00D97BF0 /* View */,
+				1BF1FD1E2240211400D97BF0 /* DetailCarAnalyticsConfigurator.swift */,
+			);
+			path = DetailCarAnalytics;
+			sourceTree = "<group>";
+		};
+		1BF1FD002240201900D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD062240207C00D97BF0 /* CarsForAnalyticsViewInput.swift */,
+				1BF1FD082240208500D97BF0 /* CarsForAnalyticsViewOutput.swift */,
+				1BF1FD0A2240209500D97BF0 /* CarsForAnalyticsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FD012240202F00D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD0C224020A200D97BF0 /* CarsForAnalyticsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FD022240203600D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD0E224020AE00D97BF0 /* CarsForAnalyticsInteractor.swift */,
+				1BF1FD10224020B800D97BF0 /* CarsForAnalyticsInteractorInput.swift */,
+				1BF1FD12224020C500D97BF0 /* CarsForAnalyticsInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FD032240204300D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD16224020DA00D97BF0 /* CarsForAnalyticsRouter.swift */,
+				1BF1FD18224020E400D97BF0 /* CarsForAnalyticsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BF1FD1A224020EA00D97BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD202240211F00D97BF0 /* DetailCarAnalyticsViewController.swift */,
+				1BF1FD222240214800D97BF0 /* DetailCarAnalyticsViewInput.swift */,
+				1BF1FD242240215200D97BF0 /* DetailCarAnalyticsViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BF1FD1B224020EF00D97BF0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD262240215F00D97BF0 /* DetailCarAnalyticsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BF1FD1C224020F500D97BF0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD282240216700D97BF0 /* DetailCarAnalyticsInteractor.swift */,
+				1BF1FD2A2240217A00D97BF0 /* DetailCarAnalyticsInteractorInput.swift */,
+				1BF1FD2C2240218800D97BF0 /* DetailCarAnalyticsInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BF1FD1D224020FD00D97BF0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1BF1FD2E2240219100D97BF0 /* DetailCarAnalyticsRouter.swift */,
+				1BF1FD302240219B00D97BF0 /* DetailCarAnalyticsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B4DBADB223660C1005ADDF9 /* MyVehicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4DBB07223660C3005ADDF9 /* Build configuration list for PBXNativeTarget "MyVehicle" */;
+			buildPhases = (
+				1B4DBAD8223660C1005ADDF9 /* Sources */,
+				1B4DBAD9223660C1005ADDF9 /* Frameworks */,
+				1B4DBADA223660C1005ADDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVehicle;
+			productName = MyVehicle;
+			productReference = 1B4DBADC223660C1005ADDF9 /* MyVehicle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B4DBAF2223660C3005ADDF9 /* MyVehicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4DBB0A223660C3005ADDF9 /* Build configuration list for PBXNativeTarget "MyVehicleTests" */;
+			buildPhases = (
+				1B4DBAEF223660C3005ADDF9 /* Sources */,
+				1B4DBAF0223660C3005ADDF9 /* Frameworks */,
+				1B4DBAF1223660C3005ADDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4DBAF5223660C3005ADDF9 /* PBXTargetDependency */,
+			);
+			name = MyVehicleTests;
+			productName = MyVehicleTests;
+			productReference = 1B4DBAF3223660C3005ADDF9 /* MyVehicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B4DBAFD223660C3005ADDF9 /* MyVehicleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4DBB0D223660C3005ADDF9 /* Build configuration list for PBXNativeTarget "MyVehicleUITests" */;
+			buildPhases = (
+				1B4DBAFA223660C3005ADDF9 /* Sources */,
+				1B4DBAFB223660C3005ADDF9 /* Frameworks */,
+				1B4DBAFC223660C3005ADDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4DBB00223660C3005ADDF9 /* PBXTargetDependency */,
+			);
+			name = MyVehicleUITests;
+			productName = MyVehicleUITests;
+			productReference = 1B4DBAFE223660C3005ADDF9 /* MyVehicleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B4DBAD4223660C0005ADDF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Александр Арсенюк";
+				TargetAttributes = {
+					1B4DBADB223660C1005ADDF9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1B4DBAF2223660C3005ADDF9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B4DBADB223660C1005ADDF9;
+					};
+					1B4DBAFD223660C3005ADDF9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B4DBADB223660C1005ADDF9;
+					};
+				};
+			};
+			buildConfigurationList = 1B4DBAD7223660C0005ADDF9 /* Build configuration list for PBXProject "MyVehicle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B4DBAD3223660C0005ADDF9;
+			productRefGroup = 1B4DBADD223660C1005ADDF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B4DBADB223660C1005ADDF9 /* MyVehicle */,
+				1B4DBAF2223660C3005ADDF9 /* MyVehicleTests */,
+				1B4DBAFD223660C3005ADDF9 /* MyVehicleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B4DBADA223660C1005ADDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4DBAED223660C3005ADDF9 /* LaunchScreen.storyboard in Resources */,
+				1B4DBAEA223660C3005ADDF9 /* Assets.xcassets in Resources */,
+				1B4DBAE5223660C1005ADDF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4DBAF1223660C3005ADDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4DBAFC223660C3005ADDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B4DBAD8223660C1005ADDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF1FCBA22401BB900D97BF0 /* FinishedOperationsConfigurator.swift in Sources */,
+				1BF1FCF022401DC500D97BF0 /* AddOperationViewOutput.swift in Sources */,
+				1BF1FC352240099600D97BF0 /* RegisterVehicleConfigurator.swift in Sources */,
+				1B4DBAE2223660C1005ADDF9 /* ViewController.swift in Sources */,
+				1BF1FC7122400DD700D97BF0 /* MyVehiclesViewController.swift in Sources */,
+				1BF1FCD822401D0500D97BF0 /* ActiveOperationsViewController.swift in Sources */,
+				1BF1FC6022400C3200D97BF0 /* ConfirmCarInteractorOutput.swift in Sources */,
+				1BF1FD0B2240209500D97BF0 /* CarsForAnalyticsViewController.swift in Sources */,
+				1BF1FD232240214800D97BF0 /* DetailCarAnalyticsViewInput.swift in Sources */,
+				1BF1FCF822401DFA00D97BF0 /* AddOperationInteractorOutput.swift in Sources */,
+				1BF1FCE222401D4200D97BF0 /* ActiveOperationsRouter.swift in Sources */,
+				1BF1FCDA22401D1100D97BF0 /* ActiveOperationsPresenter.swift in Sources */,
+				1BF1FD19224020E400D97BF0 /* CarsForAnalyticsRouterInput.swift in Sources */,
+				1BF1FC9622400FE900D97BF0 /* CarDetailRouterInput.swift in Sources */,
+				1BF1FD292240216700D97BF0 /* DetailCarAnalyticsInteractor.swift in Sources */,
+				1BF1FC8C22400FA600D97BF0 /* CarDetailPresenter.swift in Sources */,
+				1BF1FC292240082400D97BF0 /* ProfileMenuInteractor.swift in Sources */,
+				1BF1FCD222401CCD00D97BF0 /* ActiveOperationsConfigurator.swift in Sources */,
+				1BF1FC8E22400FB800D97BF0 /* CarDetailInteractor.swift in Sources */,
+				1BF1FC7322400DE300D97BF0 /* MyVehiclesPresenter.swift in Sources */,
+				1BF1FC8622400F8900D97BF0 /* CarDetailViewInput.swift in Sources */,
+				1BF1FC9022400FC900D97BF0 /* CarDetailInteractorInput.swift in Sources */,
+				1BF1FCD422401CEB00D97BF0 /* ActiveOperationsViewInput.swift in Sources */,
+				1BF1FC2F2240085200D97BF0 /* ProfileMenuViewInput.swift in Sources */,
+				1BF1FC5622400BD400D97BF0 /* ConfirmCarViewController.swift in Sources */,
+				1BF1FCA822401AA300D97BF0 /* OperationsMenuViewOutput.swift in Sources */,
+				1BF1FC5C22400C0900D97BF0 /* ConfirmCarInteractor.swift in Sources */,
+				1BF1FC6422400C4900D97BF0 /* ConfirmCarRouterInput.swift in Sources */,
+				1BF1FC6D22400DC200D97BF0 /* MyVehiclesViewInput.swift in Sources */,
+				1BF1FCEE22401DB800D97BF0 /* AddOperationViewInput.swift in Sources */,
+				1BF1FCE022401D3800D97BF0 /* ActiveOperationsInteractorOutput.swift in Sources */,
+				1BF1FC5422400BCA00D97BF0 /* ConfirmCarPresenter.swift in Sources */,
+				1BF1FC5A22400BEF00D97BF0 /* ConfirmCarViewOutput.swift in Sources */,
+				1BF1FCB022401AD400D97BF0 /* OperationsMenuInteractorOutput.swift in Sources */,
+				1BF1FD092240208500D97BF0 /* CarsForAnalyticsViewOutput.swift in Sources */,
+				1BF1FC9222400FD400D97BF0 /* CarDetailInteractorOutput.swift in Sources */,
+				1BF1FC2B2240083700D97BF0 /* ProfileMenuInteractorInput.swift in Sources */,
+				1BF1FCEC22401DAE00D97BF0 /* AddOperationViewController.swift in Sources */,
+				1BF1FCF222401DCF00D97BF0 /* AddOperationPresenter.swift in Sources */,
+				1BF1FC7722400E0300D97BF0 /* MyVehiclesInteractorInput.swift in Sources */,
+				1BF1FC3F22400A0900D97BF0 /* RegisterVehiclePresenter.swift in Sources */,
+				1BF1FCAC22401AB900D97BF0 /* OperationsMenuInteractor.swift in Sources */,
+				1BF1FC4B22400A6300D97BF0 /* RegisterVehicleViewOutput.swift in Sources */,
+				1BF1FC6B22400DB400D97BF0 /* MyVehiclesConfigurator.swift in Sources */,
+				1BF1FCA222401A7D00D97BF0 /* OperationsMenuConfigurator.swift in Sources */,
+				1BF1FCF422401DE000D97BF0 /* AddOperationInteractor.swift in Sources */,
+				1BF1FC2D2240084600D97BF0 /* ProfileMenuInteractorOutput.swift in Sources */,
+				1BF1FC22224007C200D97BF0 /* ProfileMenuRouter.swift in Sources */,
+				1BF1FC1A2240060600D97BF0 /* ProfileMenuConfigurator.swift in Sources */,
+				1BF1FCEA22401D9A00D97BF0 /* AddOperationConfigurator.swift in Sources */,
+				1BF1FCAE22401AC900D97BF0 /* OperationsMenuInteractorInput.swift in Sources */,
+				1BF1FCAA22401AAC00D97BF0 /* OperationsMenuPresenter.swift in Sources */,
+				1BF1FD072240207C00D97BF0 /* CarsForAnalyticsViewInput.swift in Sources */,
+				1BF1FD0D224020A200D97BF0 /* CarsForAnalyticsPresenter.swift in Sources */,
+				1BF1FCA622401A9500D97BF0 /* OperationsMenuViewInput.swift in Sources */,
+				1BF1FCA422401A8A00D97BF0 /* OperationsMenuViewController.swift in Sources */,
+				1BF1FCC022401BDB00D97BF0 /* FinishedOperationsViewOutput.swift in Sources */,
+				1BF1FD052240206F00D97BF0 /* CarsForAnalyticsConfigurator.swift in Sources */,
+				1BF1FC312240086100D97BF0 /* ProfileMenuViewOutput.swift in Sources */,
+				1BF1FCBC22401BC300D97BF0 /* FinishedOperationsViewController.swift in Sources */,
+				1BF1FD272240215F00D97BF0 /* DetailCarAnalyticsPresenter.swift in Sources */,
+				1BF1FCE422401D4E00D97BF0 /* ActiveOperationsRouterInput.swift in Sources */,
+				1BF1FC272240081500D97BF0 /* ProfileMenuPresenter.swift in Sources */,
+				1BF1FCF622401DEE00D97BF0 /* AddOperationInteractorInput.swift in Sources */,
+				1BF1FD312240219B00D97BF0 /* DetailCarAnalyticsRouterInput.swift in Sources */,
+				1BF1FCCA22401C3200D97BF0 /* FinishedOperationsRouter.swift in Sources */,
+				1BF1FD13224020C500D97BF0 /* CarsForAnalyticsInteractorOutput.swift in Sources */,
+				1BF1FC4122400A2400D97BF0 /* RegisterVehicleInteractorOutput.swift in Sources */,
+				1B4DBAE8223660C1005ADDF9 /* MyVehicle.xcdatamodeld in Sources */,
+				1BF1FC9422400FDE00D97BF0 /* CarDetailRouter.swift in Sources */,
+				1BF1FCD622401CF600D97BF0 /* ActiveOperationsOutputOperations.swift in Sources */,
+				1BF1FD2D2240218800D97BF0 /* DetailCarAnalyticsInteractorOutput.swift in Sources */,
+				1BF1FC5822400BE400D97BF0 /* ConfirmCarViewInput.swift in Sources */,
+				1BF1FCB222401ADE00D97BF0 /* OperationsMenuRouter.swift in Sources */,
+				1BF1FD2B2240217A00D97BF0 /* DetailCarAnalyticsInteractorInput.swift in Sources */,
+				1BF1FD11224020B800D97BF0 /* CarsForAnalyticsInteractorInput.swift in Sources */,
+				1BF1FD2F2240219100D97BF0 /* DetailCarAnalyticsRouter.swift in Sources */,
+				1BF1FCFA22401E0200D97BF0 /* AddOperationRouter.swift in Sources */,
+				1BF1FCC422401C0300D97BF0 /* FinishedOperationsInteractor.swift in Sources */,
+				1BF1FC4322400A2E00D97BF0 /* RegisterVehicleRouter.swift in Sources */,
+				1BF1FC3B224009F100D97BF0 /* RegisterVehicleInteractor.swift in Sources */,
+				1BF1FC7D22400E2700D97BF0 /* MyVehiclesRouterInput.swift in Sources */,
+				1BF1FCCC22401C3E00D97BF0 /* FinishedOperationsRouterInput.swift in Sources */,
+				1BF1FCC222401BE800D97BF0 /* FinishedOperationsPresenter.swift in Sources */,
+				1BF1FC7522400DF300D97BF0 /* MyVehiclesInteractor.swift in Sources */,
+				1BF1FCC822401C2700D97BF0 /* FinishedOperationsInteractorInput.swift in Sources */,
+				1BF1FCC622401C1500D97BF0 /* FinishedOperationsInteractorOutput.swift in Sources */,
+				1BF1FC6222400C3D00D97BF0 /* ConfirmCarRouter.swift in Sources */,
+				1BF1FC4922400A5800D97BF0 /* RegisterVehicleViewInput.swift in Sources */,
+				1BF1FC7B22400E1700D97BF0 /* MyVehiclesRouter.swift in Sources */,
+				1BF1FCBE22401BCF00D97BF0 /* FinishedOperationsViewInput.swift in Sources */,
+				1BF1FC24224007D100D97BF0 /* ProfileMenuInput.swift in Sources */,
+				1BF1FD252240215200D97BF0 /* DetailCarAnalyticsViewOutput.swift in Sources */,
+				1BF1FC5E22400C1300D97BF0 /* ConfirmCarInteractorInput.swift in Sources */,
+				1B4DBAE0223660C1005ADDF9 /* AppDelegate.swift in Sources */,
+				1BF1FCDC22401D1C00D97BF0 /* ActiveOperationsInteractor.swift in Sources */,
+				1BF1FC6F22400DCD00D97BF0 /* MyVehiclesViewOutput.swift in Sources */,
+				1BF1FD17224020DA00D97BF0 /* CarsForAnalyticsRouter.swift in Sources */,
+				1BF1FC202240069500D97BF0 /* ProfileMenuViewController.swift in Sources */,
+				1BF1FCFC22401E1E00D97BF0 /* AddOperationRouterInput.swift in Sources */,
+				1BF1FC8422400EE100D97BF0 /* CarDetailConfigurator.swift in Sources */,
+				1BF1FC4522400A3E00D97BF0 /* RegisterVehicleRouterInput.swift in Sources */,
+				1BF1FCB422401AE900D97BF0 /* OperationsMenuRouterInput.swift in Sources */,
+				1BF1FC8A22400F9D00D97BF0 /* CarDetailViewController.swift in Sources */,
+				1BF1FC3D22400A0000D97BF0 /* RegisterVehicleInteractorInput.swift in Sources */,
+				1BF1FCDE22401D2900D97BF0 /* ActiveOperationsInteractorInput.swift in Sources */,
+				1BF1FC7922400E0C00D97BF0 /* MyVehiclesOutput.swift in Sources */,
+				1BF1FD212240211F00D97BF0 /* DetailCarAnalyticsViewController.swift in Sources */,
+				1BF1FD1F2240211400D97BF0 /* DetailCarAnalyticsConfigurator.swift in Sources */,
+				1BF1FD0F224020AE00D97BF0 /* CarsForAnalyticsInteractor.swift in Sources */,
+				1BF1FC8822400F9200D97BF0 /* CarDetailViewOutput.swift in Sources */,
+				1BF1FC4E22400B9B00D97BF0 /* ConfirmCarConfigurator.swift in Sources */,
+				1BF1FC4722400A4900D97BF0 /* RegisterVehicleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4DBAEF223660C3005ADDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4DBAF8223660C3005ADDF9 /* MyVehicleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4DBAFA223660C3005ADDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4DBB03223660C3005ADDF9 /* MyVehicleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B4DBAF5223660C3005ADDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B4DBADB223660C1005ADDF9 /* MyVehicle */;
+			targetProxy = 1B4DBAF4223660C3005ADDF9 /* PBXContainerItemProxy */;
+		};
+		1B4DBB00223660C3005ADDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B4DBADB223660C1005ADDF9 /* MyVehicle */;
+			targetProxy = 1B4DBAFF223660C3005ADDF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B4DBAE3223660C1005ADDF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4DBAE4223660C1005ADDF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B4DBAEB223660C3005ADDF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4DBAEC223660C3005ADDF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B4DBB05223660C3005ADDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B4DBB06223660C3005ADDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B4DBB08223660C3005ADDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H8C9U8733;
+				INFOPLIST_FILE = MyVehicle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = projecttest.MyVehicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B4DBB09223660C3005ADDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H8C9U8733;
+				INFOPLIST_FILE = MyVehicle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = projecttest.MyVehicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B4DBB0B223660C3005ADDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H8C9U8733;
+				INFOPLIST_FILE = MyVehicleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = projecttest.MyVehicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyVehicle.app/MyVehicle";
+			};
+			name = Debug;
+		};
+		1B4DBB0C223660C3005ADDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H8C9U8733;
+				INFOPLIST_FILE = MyVehicleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = projecttest.MyVehicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyVehicle.app/MyVehicle";
+			};
+			name = Release;
+		};
+		1B4DBB0E223660C3005ADDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H8C9U8733;
+				INFOPLIST_FILE = MyVehicleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = projecttest.MyVehicleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyVehicle;
+			};
+			name = Debug;
+		};
+		1B4DBB0F223660C3005ADDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H8C9U8733;
+				INFOPLIST_FILE = MyVehicleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = projecttest.MyVehicleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyVehicle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B4DBAD7223660C0005ADDF9 /* Build configuration list for PBXProject "MyVehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4DBB05223660C3005ADDF9 /* Debug */,
+				1B4DBB06223660C3005ADDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4DBB07223660C3005ADDF9 /* Build configuration list for PBXNativeTarget "MyVehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4DBB08223660C3005ADDF9 /* Debug */,
+				1B4DBB09223660C3005ADDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4DBB0A223660C3005ADDF9 /* Build configuration list for PBXNativeTarget "MyVehicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4DBB0B223660C3005ADDF9 /* Debug */,
+				1B4DBB0C223660C3005ADDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4DBB0D223660C3005ADDF9 /* Build configuration list for PBXNativeTarget "MyVehicleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4DBB0E223660C3005ADDF9 /* Debug */,
+				1B4DBB0F223660C3005ADDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B4DBAE6223660C1005ADDF9 /* MyVehicle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B4DBAE7223660C1005ADDF9 /* MyVehicle.xcdatamodel */,
+			);
+			currentVersion = 1B4DBAE7223660C1005ADDF9 /* MyVehicle.xcdatamodel */;
+			path = MyVehicle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B4DBAD4223660C0005ADDF9 /* Project object */;
+}
