@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol MyVehiclesRouterInput: AnyObject {
+    
+    func showDetailCar(car: Car)
+}

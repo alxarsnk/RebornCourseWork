@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+protocol MyVehiclesViewOutput: AnyObject {
+    
+    func obtainCountOfCars() -> Int
+    
+    func obtainCars() -> [Car]
+    
+    func showDetailCar(car: Car)
+}

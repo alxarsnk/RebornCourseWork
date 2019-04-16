@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+
+protocol ConfirmCarRouterInput: AnyObject {
+    
+    func popVC()
+}

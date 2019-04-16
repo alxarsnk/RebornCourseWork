@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol RegisterVehicleInteractorOutput: AnyObject {
+    
+    func sendModel(model: Car)
+    
+    func presentErrorAlert(body: String)
+}

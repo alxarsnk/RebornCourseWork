@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol RegisterVehicleRouterInput: AnyObject {
+    
+    func sendModel(model: Car)
+    
+    func showErrorAlert(body: String)
+}

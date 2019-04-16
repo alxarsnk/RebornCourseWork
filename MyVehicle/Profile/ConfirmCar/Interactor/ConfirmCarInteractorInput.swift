@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+protocol ConfirmCarInteractorInput: AnyObject {
+    
+    func unboxCarDataValues(car: Car)
+    
+    func confirmCar(car: Car)
+   
+}

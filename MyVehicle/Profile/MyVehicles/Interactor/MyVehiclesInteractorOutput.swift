@@ -1,5 +1,5 @@
 //
-//  MyVehiclesOutput.swift
+//  MyVehiclesInteractorOutput.swift
 //  MyVehicle
 //
 //  Created by Александр Арсенюк on 18/03/2019.
@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol MyVehiclesInteractorOutput: AnyObject {
+    
+}

@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+protocol RegisterVehicleInteractorInput: AnyObject {
+    
+    func getInfoFromJSON(vin: String)
+    
+    
+    
+    
+}

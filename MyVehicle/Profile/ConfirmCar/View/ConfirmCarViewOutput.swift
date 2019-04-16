@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+protocol ConfirmCarViewOutput: AnyObject {
+    
+    func unboxCarDataValues(car: Car)
+    
+    func abortCar()
+    
+    func confirmCar(car: Car)
+   
+}

@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol ConfirmCarViewInput: AnyObject {
+    
+    func setCarDataValues(car: Car)
+}

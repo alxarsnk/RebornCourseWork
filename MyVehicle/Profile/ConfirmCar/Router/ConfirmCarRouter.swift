@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class ConfirmCarRouter: ConfirmCarRouterInput {
+    
+    weak var view: UIViewController!
+    
+    func popVC() {
+        view.navigationController?.popViewController(animated: true)
+    }
+    
+}

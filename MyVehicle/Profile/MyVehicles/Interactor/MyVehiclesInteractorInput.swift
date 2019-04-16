@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol MyVehiclesInteractorIntput: AnyObject {
+   
+    func obtainCountOfCars() -> Int
+    
+    func obtainCars() -> [Car]
+}

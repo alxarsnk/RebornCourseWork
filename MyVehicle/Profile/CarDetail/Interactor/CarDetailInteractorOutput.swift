@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol CarDetailInteractorOutput: AnyObject {
+    
+    func setCarDataValues(car: Car)
+  }

@@ -8,23 +8,39 @@
 
 import UIKit
 
-class ConfirmCarViewController: UIViewController {
-
+class ConfirmCarViewController: UIViewController, Abstarct, ConfirmCarViewInput {
+  
+    @IBOutlet weak var modelLabel: UILabel!
+    @IBOutlet weak var vinLabel: UILabel!
+    @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var labelLabel: UILabel!
+   
+    var presenter: ConfirmCarViewOutput!
+   
+    var model: Car!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+       presenter.unboxCarDataValues(car: model)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setCarDataValues(car: Car) {
+        
+        modelLabel.text = car.model
+        vinLabel.text   = car.VINCode
+        yearLabel.text  = car.year
+        labelLabel.text = car.label
     }
-    */
-
+    
+    func setData(data: Any) {
+        model = data as? Car
+    }
+    
+    @IBAction func confirmCarButtonPressed(_ sender: Any) {
+        presenter.confirmCar(car: model)
+    }
+    
+    @IBAction func abortCarButtonPressed(_ sender: Any) {
+        presenter.abortCar()
+    }
 }

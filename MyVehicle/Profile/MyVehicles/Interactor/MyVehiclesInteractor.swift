@@ -7,3 +7,23 @@
 //
 
 import Foundation
+
+class MyVehiclesInteractor: MyVehiclesInteractorIntput {
+  
+    
+    weak var presenter: MyVehiclesInteractorOutput!
+    var databaseManager: DatabaseManagerProtocol!
+    
+    func obtainCountOfCars() -> Int {
+        
+        let carArray: [Car] = databaseManager.obtainModels()
+        return carArray.count
+    }
+    
+    func obtainCars() -> [Car] {
+        
+        let carArray: [Car] = databaseManager.obtainModels()
+        return carArray
+    }
+   
+}

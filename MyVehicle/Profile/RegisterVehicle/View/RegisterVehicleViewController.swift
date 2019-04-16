@@ -8,23 +8,32 @@
 
 import UIKit
 
-class RegisterVehicleViewController: UIViewController {
-
+class RegisterVehicleViewController: UIViewController, RegisterVehicleViewInput {
+    
+    @IBOutlet weak var vinCodeTextField: UITextField!
+    
+    var presenter: RegisterVehicleViewOutput!
+    
+    let textFieldDelegate = VinTextFieldDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+      
+        vinCodeTextField.delegate = textFieldDelegate
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func submitButtonPressed(_ sender: Any) {
+        view.endEditing(true)
+        presenter.getInfoFromJSON(vin: vinCodeTextField.text!)
     }
-    */
-
+    @IBAction func recognizeButtonPressed(_ sender: Any) {
+    
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "confirmCar", let model = sender as? Car {
+            let destinationController = segue.destination as! Abstarct
+            destinationController.setData(data: model)
+        }
+    }
 }

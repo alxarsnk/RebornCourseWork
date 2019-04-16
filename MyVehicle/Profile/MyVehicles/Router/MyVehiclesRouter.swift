@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import UIKit
+
+class MyVehiclesRouter: MyVehiclesRouterInput {
+    
+    weak var view: UIViewController!
+    
+    func showDetailCar(car: Car) {
+        
+        view.performSegue(withIdentifier: "detail", sender: car)
+    }
+    
+}

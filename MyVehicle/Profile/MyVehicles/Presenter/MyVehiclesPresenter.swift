@@ -7,3 +7,23 @@
 //
 
 import Foundation
+
+class MyVehiclesPresenter: MyVehiclesViewOutput, MyVehiclesInteractorOutput {
+    
+    
+    weak var view: MyVehiclesViewInput!
+    var router: MyVehiclesRouterInput!
+    var interactor: MyVehiclesInteractorIntput!
+    
+    func obtainCountOfCars() -> Int {
+        return interactor.obtainCountOfCars()
+    }
+    
+    func obtainCars() -> [Car] {
+        return interactor.obtainCars()
+    }
+    
+    func showDetailCar(car: Car) {
+        router.showDetailCar(car: car)
+    }
+}

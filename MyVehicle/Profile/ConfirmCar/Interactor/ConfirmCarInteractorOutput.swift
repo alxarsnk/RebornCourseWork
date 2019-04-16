@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol ConfirmCarInteractorOutput: AnyObject {
+    
+    func setCarDataValues(car: Car)
+    
+    func popVC()
+}

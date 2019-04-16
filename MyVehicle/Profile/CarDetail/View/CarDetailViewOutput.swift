@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol CarDetailViewOutput: AnyObject {
+    
+    func unboxCarDataValues(car: Car)
+}

@@ -7,3 +7,24 @@
 //
 
 import Foundation
+import Realm
+import RealmSwift
+
+class ConfirmCarInteractor: ConfirmCarInteractorInput {
+  
+    weak var presenter: ConfirmCarInteractorOutput!
+    var databaseManager: DatabaseManagerProtocol!
+    
+    func unboxCarDataValues(car: Car) {
+       
+        presenter.setCarDataValues(car: car)
+    }
+    
+    func confirmCar(car: Car) {
+        
+        databaseManager.clearAll()
+        databaseManager.saveModel(model: car)
+        presenter.popVC()
+     }
+    
+ }
