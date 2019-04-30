@@ -21,7 +21,7 @@ class NetworkManager: NetworkManagerProtocol {
         
     let baseURL = "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/\(vin)?format=json"
         
-    guard let url = URL(string: baseURL) else { }
+    guard let url = URL(string: baseURL) else {return }
         
     let urlRequest = URLRequest(url: url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 20)
     
