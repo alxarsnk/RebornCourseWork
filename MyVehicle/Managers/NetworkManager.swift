@@ -11,10 +11,11 @@ import Foundation
 protocol NetworkManagerProtocol {
 
     func getInfoAboutYourCar(vin: String, complition: @escaping (Car)->())
+    
 }
 
 class NetworkManager: NetworkManagerProtocol {
-    
+  
     func getInfoAboutYourCar(vin: String, complition: @escaping (Car)->()) {
     
     var returnCar = Car()
@@ -53,6 +54,9 @@ class NetworkManager: NetworkManagerProtocol {
     })
         task.resume()
     }
+    
+   
+
 }
 
 

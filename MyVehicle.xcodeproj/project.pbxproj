@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B0C1187225A44E70085CDD8 /* RegisterVehicleDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C1186225A44E70085CDD8 /* RegisterVehicleDelegates.swift */; };
+		1B0E05D3227B0E0E0047F708 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E05D2227B0E0E0047F708 /* LocationManager.swift */; };
+		1B0E05D5227B1A6A0047F708 /* YahooWeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E05D4227B1A6A0047F708 /* YahooWeatherApi.swift */; };
 		1B103E712258B8770088F13D /* CarsForAnalyticsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B103DCB2258B8760088F13D /* CarsForAnalyticsConfigurator.swift */; };
 		1B103E722258B8770088F13D /* CarsForAnalyticsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B103DCD2258B8760088F13D /* CarsForAnalyticsPresenter.swift */; };
 		1B103E732258B8770088F13D /* CarsForAnalyticsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B103DCF2258B8760088F13D /* CarsForAnalyticsViewOutput.swift */; };
@@ -121,6 +123,7 @@
 		1B103EE022590D970088F13D /* Abstract Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B103EDF22590D970088F13D /* Abstract Protocol.swift */; };
 		1B1CCA94225204D400628CEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1CCA93225204D400628CEF /* NetworkManager.swift */; };
 		1B1CCA96225206CE00628CEF /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1CCA95225206CE00628CEF /* Classes.swift */; };
+		1B46D47A227B2CC500E05CE3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46D479227B2CC500E05CE3 /* WeatherManager.swift */; };
 		1B4DBAE0223660C1005ADDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBADF223660C1005ADDF9 /* AppDelegate.swift */; };
 		1B4DBAE5223660C1005ADDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4DBAE3223660C1005ADDF9 /* Main.storyboard */; };
 		1B4DBAE8223660C1005ADDF9 /* MyVehicle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DBAE6223660C1005ADDF9 /* MyVehicle.xcdatamodeld */; };
@@ -157,6 +160,8 @@
 		03E15825C87261198D01E9DB /* Pods-MyVehicleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVehicleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVehicleUITests/Pods-MyVehicleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		12869A057458FF8B466C32D1 /* Pods-MyVehicleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVehicleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVehicleTests/Pods-MyVehicleTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B0C1186225A44E70085CDD8 /* RegisterVehicleDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleDelegates.swift; sourceTree = "<group>"; };
+		1B0E05D2227B0E0E0047F708 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1B0E05D4227B1A6A0047F708 /* YahooWeatherApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooWeatherApi.swift; sourceTree = "<group>"; };
 		1B103DCB2258B8760088F13D /* CarsForAnalyticsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsConfigurator.swift; sourceTree = "<group>"; };
 		1B103DCD2258B8760088F13D /* CarsForAnalyticsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsPresenter.swift; sourceTree = "<group>"; };
 		1B103DCF2258B8760088F13D /* CarsForAnalyticsViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsForAnalyticsViewOutput.swift; sourceTree = "<group>"; };
@@ -270,6 +275,7 @@
 		1B103EDF22590D970088F13D /* Abstract Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Abstract Protocol.swift"; sourceTree = "<group>"; };
 		1B1CCA93225204D400628CEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1B1CCA95225206CE00628CEF /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		1B46D479227B2CC500E05CE3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		1B4DBADC223660C1005ADDF9 /* MyVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4DBADF223660C1005ADDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4DBAE4223660C1005ADDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -760,8 +766,8 @@
 		1B103E442258B8770088F13D /* OperationsMenu */ = {
 			isa = PBXGroup;
 			children = (
-				1B103E452258B8770088F13D /* Presenter */,
 				1B103E472258B8770088F13D /* OperationsMenuConfigurator.swift */,
+				1B103E452258B8770088F13D /* Presenter */,
 				1B103E482258B8770088F13D /* View */,
 				1B103E4C2258B8770088F13D /* Interactor */,
 				1B103E502258B8770088F13D /* Router */,
@@ -790,9 +796,9 @@
 		1B103E4C2258B8770088F13D /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				1B103E4F2258B8770088F13D /* OperationsMenuInteractor.swift */,
 				1B103E4D2258B8770088F13D /* OperationsMenuInteractorOutput.swift */,
 				1B103E4E2258B8770088F13D /* OperationsMenuInteractorInput.swift */,
-				1B103E4F2258B8770088F13D /* OperationsMenuInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -969,6 +975,9 @@
 				1B1CCA93225204D400628CEF /* NetworkManager.swift */,
 				1B73C69F225B78B0005A49C6 /* DatabaseManager.swift */,
 				1BB7B677225DE156007180F6 /*  AlertManager.swift */,
+				1B0E05D2227B0E0E0047F708 /* LocationManager.swift */,
+				1B0E05D4227B1A6A0047F708 /* YahooWeatherApi.swift */,
+				1B46D479227B2CC500E05CE3 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -1136,6 +1145,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyVehicle/Pods-MyVehicle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
@@ -1143,6 +1153,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -1233,6 +1244,7 @@
 				1B103EA82258B8770088F13D /* CarDetailInteractorInput.swift in Sources */,
 				1B103ED92258B8770088F13D /* FinishedOperationsViewInput.swift in Sources */,
 				1B103E892258B8770088F13D /* ProfileMenuViewInput.swift in Sources */,
+				1B0E05D5227B1A6A0047F708 /* YahooWeatherApi.swift in Sources */,
 				1B103EB32258B8770088F13D /* RegisterVehicleInteractorInput.swift in Sources */,
 				1B103EA92258B8770088F13D /* CarDetailInteractorOutput.swift in Sources */,
 				1B103E8C2258B8770088F13D /* ProfileMenuInteractorInput.swift in Sources */,
@@ -1297,6 +1309,7 @@
 				1B103E7E2258B8770088F13D /* DetailCarAnalyticsViewOutput.swift in Sources */,
 				1B103E9D2258B8770088F13D /* ConfirmCarConfigurator.swift in Sources */,
 				1B103E972258B8770088F13D /* MyVehiclesRouter.swift in Sources */,
+				1B46D47A227B2CC500E05CE3 /* WeatherManager.swift in Sources */,
 				1B0C1187225A44E70085CDD8 /* RegisterVehicleDelegates.swift in Sources */,
 				1B103E882258B8770088F13D /* ProfileMenuViewOutput.swift in Sources */,
 				1B103E9E2258B8770088F13D /* ConfirmCarInteractorOutput.swift in Sources */,
@@ -1316,6 +1329,7 @@
 				1B103EC22258B8770088F13D /* OperationsMenuConfigurator.swift in Sources */,
 				1B103E962258B8770088F13D /* MyVehiclesInteractor.swift in Sources */,
 				1B103EA12258B8770088F13D /* ConfirmCarRouterInput.swift in Sources */,
+				1B0E05D3227B0E0E0047F708 /* LocationManager.swift in Sources */,
 				1B103EB52258B8770088F13D /* RegisterVehicleRouterInput.swift in Sources */,
 				1B103EC72258B8770088F13D /* OperationsMenuInteractorInput.swift in Sources */,
 				1B103E9C2258B8770088F13D /* ConfirmCarViewController.swift in Sources */,
