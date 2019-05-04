@@ -717,9 +717,9 @@
 		1B103E352258B8770088F13D /* AddOperation */ = {
 			isa = PBXGroup;
 			children = (
+				1B103E3C2258B8770088F13D /* AddOperationConfigurator.swift */,
 				1B103E362258B8770088F13D /* Presenter */,
 				1B103E382258B8770088F13D /* View */,
-				1B103E3C2258B8770088F13D /* AddOperationConfigurator.swift */,
 				1B103E3D2258B8770088F13D /* Interactor */,
 				1B103E412258B8770088F13D /* Router */,
 			);
@@ -737,9 +737,9 @@
 		1B103E382258B8770088F13D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1B103E3B2258B8770088F13D /* AddOperationViewController.swift */,
 				1B103E392258B8770088F13D /* AddOperationViewInput.swift */,
 				1B103E3A2258B8770088F13D /* AddOperationViewOutput.swift */,
-				1B103E3B2258B8770088F13D /* AddOperationViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
