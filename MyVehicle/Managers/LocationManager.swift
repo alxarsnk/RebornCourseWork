@@ -35,7 +35,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
      
-        DispatchQueue.main.asyncAfter(deadline: .now()+0.1) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
             complition(self.latitude, self.longitude)
            }
     }
