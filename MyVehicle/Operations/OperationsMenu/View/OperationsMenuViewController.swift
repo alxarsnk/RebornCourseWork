@@ -8,23 +8,27 @@
 
 import UIKit
 
-class OperationsMenuViewController: UIViewController {
+class OperationsMenuViewController: UIViewController, OperationsMenuViewInput {
 
+    @IBOutlet weak var todayWeather: UILabel!
+    @IBOutlet weak var tomorrowWeather: UILabel!
+    @IBOutlet weak var cityName: UILabel!
+    
+    var presenter: OperationsMenuViewOutput!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        presenter.intialSetup()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   
+    func setData(todayWeather: String, tomorrowWeather: String, city: String) {
+        
+        let celsia = "˚C"
+        
+        self.todayWeather.text = todayWeather + celsia
+        self.tomorrowWeather.text = tomorrowWeather + celsia
+        self.cityName.text = city
     }
-    */
-
 }

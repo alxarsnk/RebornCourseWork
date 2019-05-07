@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol OperationsMenuInteractorOutput: AnyObject {
+    
+    func setData(todayWeather: String, tomorrowWeather: String, city: String)
+}

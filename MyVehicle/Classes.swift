@@ -23,9 +23,5 @@ class Car: Object {
     }
 }
 
-@objcMembers
-class Strong: Object {
-    dynamic var name = String()
-}
 
 

@@ -11,17 +11,18 @@ import Foundation
 protocol NetworkManagerProtocol {
 
     func getInfoAboutYourCar(vin: String, complition: @escaping (Car)->())
+    
 }
 
 class NetworkManager: NetworkManagerProtocol {
-    
+  
     func getInfoAboutYourCar(vin: String, complition: @escaping (Car)->()) {
     
     var returnCar = Car()
         
     let baseURL = "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/\(vin)?format=json"
         
-    guard let url = URL(string: baseURL) else { }
+    guard let url = URL(string: baseURL) else {return }
         
     let urlRequest = URLRequest(url: url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 20)
     
@@ -53,6 +54,9 @@ class NetworkManager: NetworkManagerProtocol {
     })
         task.resume()
     }
+    
+   
+
 }
 
 

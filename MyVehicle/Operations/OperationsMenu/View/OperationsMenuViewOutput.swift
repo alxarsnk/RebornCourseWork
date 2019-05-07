@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol OperationsMenuViewOutput: AnyObject {
+    
+    func intialSetup()
+ }

@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol OperationsMenuInteractorInput: AnyObject {
+    
+    func initialSetup()
+}
